@@ -1,0 +1,26 @@
+.pt{
+	margin-top: 50px;
+}
+.port{
+	font-family:sans-serif;
+	font-weight: 100px;
+	font-size: 20px
+}
+a[href="#"]{
+	color:default;
+}
+.About{
+	font-family:serif;
+	font-size:30px
+}
+.container1{
+	margin-top:50px;
+}
+.container2{
+	margin-top:100px;
+
+}
+.img{
+	border-radius: 5px;
+	margin-left: 0px
+}
