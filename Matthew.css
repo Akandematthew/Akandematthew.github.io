@@ -24,3 +24,6 @@ a[href="#"]{
 	border-radius: 5px;
 	margin-left: 0px
 }
+input[type="text"]{
+	box-shadow:5px
+}
