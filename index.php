@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <?php
 
 $link= mysqli_connect("localhost","root","","profile");
@@ -20,25 +21,17 @@ if ($result) {
 
 ?>
 
+
 <html>
 <!-- Head section of the  website-->
 <head>
 	<title>Homepage</title>
 	<meta charset="utf-8">
-<<<<<<< HEAD
-	<meta name="viewport" content="width=device-width initial-scale=1, shrink-to-fit=no">
-=======
->>>>>>> a5540a5ae5144c6cccb84c47e1bc87ae62001f69
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 	<link rel="stylesheet" type="text/css" href="Matthew.css">
 	<link rel="icon" type="img/ico" href="z.png">
 
-<<<<<<< HEAD
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-=======
->>>>>>> a5540a5ae5144c6cccb84c47e1bc87ae62001f69
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -53,20 +46,14 @@ if ($result) {
 </head>
 <body>
 	<!-- let the magic begins-->
-<<<<<<< HEAD
-	<header>			
-	<!-- Navigation section of the website-->
-	<nav class="navbar navbar-expand-md bg-white border-bottom px-3 px-md-5">
-=======
 <header>
 	<!-- Navigation section of the website-->
 	<nav class="navbar navbar-expand-md bg-white border-bottom">
->>>>>>> a5540a5ae5144c6cccb84c47e1bc87ae62001f69
         <a class="navbar-brand" href="#">
-            <img src="Matthew logo.jpg" alt="logo" width="45" height="45">
+            <img src="matthew logo.jpg" alt="logo" width="45" height="45">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="fa fa-bars"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -89,18 +76,6 @@ if ($result) {
             </ul>
         </div>
     </nav>
-<<<<<<< HEAD
-			
-	</header>
-
-<!-- Navigaation ends-->
-	
-<!-- container 1-->
-<div class="container-fluid container1 bg-intro"  >
-	<div class="row">
-		<div class="col-12 d-flex justify-content-center" >
-			<img src="IMG-20190719-WA0062.jpg">
-=======
 </header>
 <!-- Navigaation ends-->
 	
@@ -109,31 +84,24 @@ if ($result) {
 	<div class="row">
 		<div col-md-6 style="margin-left: 450px ; margin-top: 0px">
 			<img src="IMG-20190719-WA0062.jpg" >
->>>>>>> a5540a5ae5144c6cccb84c47e1bc87ae62001f69
 		</div>
 	</div>
 </div>
-<div class="container-fluid container2">
+<div class="container container2">
 	<div class="row">
 
-		<div class="col-12 col-md-6" style="margin-top:10px" >
+		<div class="col-md-6" style="margin-top:10px" >
 		<p class="About"><b>About me</b></p>
 		<br>
 
 		<small>My name is Akande Matthew Oluwadamilare and I am 21 years old. Currently I'm studying the 3rd out of 5 years of Electrical and computer Engineering degree at Kwara State University in Malete, Ilorin, kwara State. I'm interested in subjects like communication engineering, hardware engineering, web and software development. I'm a very curious, disciplined, focused and self-taught person who likes reading about new tools and technologies, I like to propose efficient solutions to improve any type of process and thus offer final products of high qualities.</small>
 	</div>
 	<!-- My portrait goes here!-->
-<<<<<<< HEAD
-	<div class=" col-12 col-md-6 img"><img src="IMG_20171119_122258.jpg" class="img-rounded rounded-image"></div>
-=======
 	<div class="col-md-6 img"><img src="IMG_20171119_122258.jpg" class="img-rounded"></div>
->>>>>>> a5540a5ae5144c6cccb84c47e1bc87ae62001f69
 	
 </div> 
 <!-- container 1 ends-->
 <hr>
-<<<<<<< HEAD
-=======
 
 <!-- my projects container-->
 <div class="container">
@@ -145,41 +113,8 @@ if ($result) {
 			<p style="margin-left:0px;font-style:sans-serif; font-size:30px; font-weight:20px; margin-left:250px"><b>Projects</b><br>
 			</p>
 			<small style="margin-left: 200px">These are the project in which I have participated:</small>
->>>>>>> a5540a5ae5144c6cccb84c47e1bc87ae62001f69
 
-<!-- my projects container-->
-		<div >
-			<div class="col-12"> <p><b>Projects</b></p></div> 
-			<div class=" col-12 DC">These are parts of my projects:</div>
 		</div>
-<<<<<<< HEAD
-		
-<br>
-<br>
-
-
-<!-- projects slider body-->
-<div id="wowslider-container1" class="container-fluid">
-	<div class="ws_images"><ul>
-		<li><img src="data1/images/date.jpeg" alt=" Dsc" title="Dsc" id="wows1_0"/></li>
-		<li><img src="data1/images/screenshot_29.png" alt="Data service home page" title="Data service home page" id="wows1_1"/></li>
-		<li><img src="data1/images/screenshot_32.png" alt=" user Log in page" title=" user Log in page" id="wows1_2"/></li>
-		<li><a href="http://wowslider.net"><img src="data1/images/screenshot_33.png" alt="html slider" title="Registration portal" id="wows1_3"/></a></li>
-		<li><img src="data1/images/screenshot_51.png" alt="I imitated Kwasu portal" title="I imitated Kwasu portal" id="wows1_4"/></li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="Proposed Dsc website"><span><img src="data1/tooltips/dsc.png" alt="Proposed Dsc website"/>1</span></a>
-		<a href="#" title="Data service home page"><span><img src="data1/tooltips/screenshot_29.png" alt="Data service home page"/>2</span></a>
-		<a href="#" title=" user Log in page"><span><img src="data1/tooltips/screenshot_32.png" alt=" user Log in page"/>3</span></a>
-		<a href="#" title="Registration portal"><span><img src="data1/tooltips/screenshot_33.png" alt="Registration portal"/>4</span></a>
-		<a href="#" title="I imitated Kwasu portal"><span><img src="data1/tooltips/screenshot_51.png" alt="I imitated Kwasu portal"/>5</span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.8</div>
-	<div class="ws_shadow"></div>
-	</div>	
-<!--  End of project slider -->
-
-
-=======
 	</div>
 </div>	
 <br>
@@ -206,34 +141,10 @@ if ($result) {
 
 <script type="text/javascript" src="engine1/wowslider.js"></script>
 <script type="text/javascript" src="engine1/script.js"></script>
->>>>>>> a5540a5ae5144c6cccb84c47e1bc87ae62001f69
 <!-- Project container closed--> 	
 
 <hr>
 <!-- contact form container-->
-<<<<<<< HEAD
-			
-	<div class="container-fluid contactme pt-3" >
-	<div class="row">
-		<div class="col-8 offset-md-3 offset-2 col-md-6">
-			<h1 class="contact text-center">Contact me</h1>
-			<p class="note text-center"><small><b>If you are interested in a budget for your website project, a consultation, want me to create a website for you or want to contact me for anything else, please fill the form below.</b></small></p>
-		</div>
-		<div class="col-md-6 offset-md-3 col-10 offset-1">
-			<form role="form" method="POST">
-				<div class="form-group">
-					<label for="name" class="label-control shadow" style="color: #FFDEAD">Full name:</label>
-					<input type="text" name="fullname" class="form-control">
-				</div>
-			
-			<div class="form-group">
-				<label for="email" class="label-control" style="color: #FFDEAD">Email:</label>
-				<input type="email" name="email" class="form-control shadow" placeholder="@example.com">
-			</div>
-			<div class="form-group">
-				<label for="message" class="label-control" style="color: #FFDEAD">Message:</label>
-				<textarea name="message" class="form-control textarea" rows="2" cols="3px" placeholder="what do you have for us?"></textarea>
-=======
 <div class="container-fluid" style="background-color:whitesmoke">
 	<div class="row">
 		<div class="col-md-6">
@@ -248,16 +159,8 @@ if ($result) {
 			<div class="form-group">
 				<label for="email">Email:</label>
 				<input type="email" name="email" class="form-control" placeholder="@example.com">
->>>>>>> a5540a5ae5144c6cccb84c47e1bc87ae62001f69
 			</div>
-			
 			<div class="form-group">
-<<<<<<< HEAD
-			<label for="date" class=" label-control" style="color: #FFDEAD"> Date:</label> 
-				<input type="date" name="date" class=" form-control">
-
-			</div>
-=======
 				<label for="message">Message:</label>
 				<textarea name="message" class="form-control" rows="2" cols="3px" placeholder="what do you have for us?"></textarea>
 			</div>
@@ -267,28 +170,17 @@ if ($result) {
 				<input type="date" name="date" class="col-sm-6 form-control">
 
 			</div>
->>>>>>> a5540a5ae5144c6cccb84c47e1bc87ae62001f69
 			 
     <div class="g-recaptcha" data-sitekey="6LelW64UAAAAALx3etIAngYF51leccqiqctpRsCz"></div>
   
 			<div class="form-group">
-<<<<<<< HEAD
-				<input type="submit" name="submit" class=" col-12  btn btn-default btn-primary mt-2" value="SEND" style="color: #FFDEAD">
-			</div>
-		
-		
-			</form>
-		</div>
-		
-=======
 				<input type="submit" name="submit" class=" col-sm-6  btn btn-default" value="SEND">
 			</div>
 			</fieldset>
 		
 			</form>
 		</div>
-		<div class="col-md-6 build" style="margin-top: 250px" > <img src="IMG-20190720-WA0002.jpg"> </div>
->>>>>>> a5540a5ae5144c6cccb84c47e1bc87ae62001f69
+		<div class="col-md-6" style="margin-top: 250px" ><img src="IMG-20190720-WA0002.jpg"></div>
 	</div>
 </div>
 <!-- contact form closed-->
@@ -301,31 +193,9 @@ if ($result) {
 	<br>
 	<br>
  <footer>
-<<<<<<< HEAD
- 	<div class="container-fluid">
- 		<div class="row">
- 			<div class="col-12 col-md-6"><small>Website designed and created by <b>Akande Matthew.</b> All right reserved &copy2019.</small> 
- 	</div>
- 		<span class="font-awesome">
-	 	<i class="fa fa-facebook-square">@akande.mathew948</i>|
-	 	<i class="fa fa-whatsapp"> 08169029730</i>|
-	 	
-	 	<i class="fa fa-envelope">akandematthew772@gmail.com</i>
-	 	
- 		</span>
- 		</div>
- 	</div>
- 	
- 	
- </p>
- </footer>
- <script type="text/javascript" src="engine1/wowslider.js"></script>
-<script type="text/javascript" src="engine1/script.js"></script>
-=======
  	<small>Website designed and created by Akande Matthew. All right reserved.</small>
 
  </footer>
  
->>>>>>> a5540a5ae5144c6cccb84c47e1bc87ae62001f69
 </body>
 </html>
