@@ -1,24 +1,5 @@
 <!DOCTYPE html>
-<?php
 
-$link= mysqli_connect("localhost","root","","profile");
-	if (isset($_POST['submit'])){
-		
-$query="INSERT INTO `comment table` (`id`, `name`, `Email`, `message`) VALUES (NULL, '$_POST[name]', '$_POST[email]', '$_POST[message]');";
-
-$result=mysqli_query($link,$query);
-if ($result) {
-	# code...
-	echo "success";
-}
-
-		
-	}
-
-
-
-
-?>
 
 <html>
 <!-- Head section of the  website-->
