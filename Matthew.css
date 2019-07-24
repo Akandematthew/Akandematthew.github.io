@@ -105,3 +105,9 @@ input[type="date"]{
 .sentences{
 	margin-right:10px
 }
+footer{
+	background-color:black;
+	font-weight:70%;
+	color: white;
+	border-radius: 3px
+}
