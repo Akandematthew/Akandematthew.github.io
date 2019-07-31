@@ -1,3 +1,8 @@
+
+body{
+	background-image:url("email-pattern.png");
+	background-attachment: fixed;
+}
 .pt{
 	margin-top: 50px;
 }
@@ -58,7 +63,8 @@ input[type="date"]{
 }
 .contact{
 	font-family:Times, serif;
-	color: #FFDEAD
+	color: #FFDEAD;
+	border-radius: 3px
 }
 .project{
 	margin-left: 700px;
@@ -69,6 +75,7 @@ input[type="date"]{
 .contactme{
 	background-image:linear-gradient(rgba(10,10,10,0.4),rgba(10,10,10,0.4)),url("emma-matthews-973230-unsplash.jpg");
 	background-size: cover;
+	border-radius: 5px;
 }
 .note{
 	color: white;
@@ -78,20 +85,21 @@ input[type="date"]{
 }
 .rounded-image{
 	border-radius: 50%;
+	margin-left: 10px
 }
 .next{
 	background-color:#4CAF50;
 	color: white;
 	padding:10px;
-	border-radius:5px;
-	margin-left: 80%;
-	margin-bottom:2px
+	border-radius:10px;
+	margin-left:70%;
+	
 }
 .previous{
 	background-color:#4CAF50;
 	color: white;
 	padding:10px;
-	border-radius:5px;
+	border-radius:10px;
 	margin-left:2%;
 }
 .wowslider{
@@ -115,3 +123,6 @@ footer{
 	background-color:grey;
 	color: white;
 }
+.mb{
+	background-color:grey;
+} 
