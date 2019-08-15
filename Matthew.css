@@ -81,7 +81,7 @@ input[type="date"]{
 	color: white;
 }
 .font-awesome{
-	margin-left: 55px;
+	margin-left: 250px;
 }
 .rounded-image{
 	border-radius: 50%;
@@ -156,4 +156,7 @@ footer{
 }
 .footer{
 	padding:5px
+}
+a:hover{
+	color:red;
 }
