@@ -1,6 +1,6 @@
 
 body{
-	background-image:url("email-pattern.png");
+	background-image:url("Images/email-pattern.png");
 	background-attachment: fixed;
 }
 .pt{
@@ -73,7 +73,7 @@ input[type="date"]{
 	font-size: 30px
 }
 .contactme{
-	background-image:linear-gradient(rgba(10,10,10,0.4),rgba(10,10,10,0.4)),url("emma-matthews-973230-unsplash.jpg");
+	background-image:linear-gradient(rgba(10,10,10,0.4),rgba(10,10,10,0.4)),url("Images/emma-matthews-973230-unsplash.jpg");
 	background-size: cover;
 	border-radius: 5px;
 }
@@ -126,3 +126,34 @@ footer{
 .mb{
 	background-color:grey;
 } 
+.logoimage{
+	border-radius:10%;
+}
+.html_image{
+	border-radius:50%; 
+	height:100px;
+	width:120px;
+}
+.css_image{
+	border-radius:50%;
+	height:100px;
+	width:120px;
+}
+.js_image{
+	border-radius:50%;
+	height:100px;
+	width:120px;
+}
+.c_image{
+	border-radius:50%;
+	height:100px;
+	width:120px;
+}
+.mysql_image{
+	border-radius:0%;
+	height:100px;
+	width:120px;
+}
+.footer{
+	padding:5px
+}

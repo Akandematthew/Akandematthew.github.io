@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 	<link rel="stylesheet" type="text/css" href="Matthew.css">
-	<link rel="icon" type="img/ico" href="z.png">
+	<link rel="icon" type="img/ico" href="images/matthew logo.jpg">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
@@ -24,20 +24,19 @@
 	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
 	<script type="text/javascript" src="engine1/jquery.js"></script>
 	<!-- end wow slider head section-->
+	<script type="text/javascript">
+		alert("You are warmly welcome to my officially website");
+	</script>
 
 </head>
 <body>
-	<script type="text/javascript">
-		function myfunction(){
-			alert("Your message was successfully saved,we will get back to you in no time")
-		}
-	</script>
+	
 	<!-- let the magic begins-->
 	<header>			
 	<!-- Navigation section of the website-->
 	<nav class="navbar navbar-expand-md bg-white border-bottom px-3 px-md-5">
         <a class="navbar-brand" href="#">
-            <img src="Matthew logo.jpg" alt="logo" width="45" height="45">
+            <img src="Images/Matthew logo.jpg" alt="logo" width="45" height="45">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="fa fa-bars"></span>
@@ -72,13 +71,13 @@
 <div class="container-fluid container1 bg-intro"  >
 	<div class="row">
 		<div class="col-12 d-flex justify-content-center" >
-			<img src="IMG-20190719-WA0062.jpg">
+			<img src="Images/IMG-20190719-WA0062.jpg" class="logoimage">
 		</div>
 	</div>
 </div>
 <div class="container-fluid container2">
 	<div class="row">
-		<div class=" col-12 col-md-6" style="margin-top:130px"><img src="IMG_20171119_122258.jpg" class="rounded-image"></div>
+		<div class=" col-12 col-md-6" style="margin-top:130px"><img src="Images/IMG_20171119_122258.jpg" class="rounded-image"></div>
 
 		<div class="col-12 col-md-6" style="margin-top:10px" >
 		<p class="About"><b>About me</b></p>
@@ -93,9 +92,47 @@
 </div> 
 <!-- container 1 ends-->
 <hr>
+<!-- Skills display starts-->
+<div class="container-fluid border-bottom">
+	<div><b>Programming skills:</b></div>
+	<div class="row offset-md-2" >
+		
+
+		<div class="col-12 col-md-2">
+			<img src="images/html.png" class="html_image px-2">
+			<br>
+			<small style="padding-left:0px">Hypertext Markup Language</small>
+		</div>
+		<div class="col-12 col-md-2">
+			<img src="images/css.jpeg" class=" css_image px-2 py-2">
+			<br>
+			<small>CascadeStyleSheet</small>
+		</div>
+		<div class="col-12 col-md-2">
+			<img src="images/js.png" class=" px-2 py-2 js_image">
+			<br>
+			<small class="px-4">Javascript</small>
+		</div>
+		<div class="col-12 col-md-2">
+			<img src="images/c lang.png" class="px-2 py-2 c_image">
+			<br>	
+			<small class="px-3">C programming</small>
+		</div>
+		<div class="col-12 col-md-3">
+			<img src="images/OracleMySQLCloudService.png" class="px-2 py-2 mysql_image">
+			<br>
+			<small class="px-3">Server side programming</small>	
+		</div>
+
+		
+	</div>
+</div>
+<!-- skills display ends-->
+
+
 
 <!-- my projects container-->
-		<div >
+		<div class="mt-5">
 			<div class="col-12"> <p><b>Projects and advertisements</b></p></div> 
 			<div class=" col-12 DC d-flex justify-content-center">These are parts of my projects:</div>
 		</div>
@@ -147,13 +184,13 @@
 	<div class="row">
 		<div class="col-8 offset-md-3 offset-2 col-md-6">
 			<h1 class="contact text-center">Contact me</h1>
-			<p class="note text-center"><small><b>If you are interested in a budget for your website project, a consultation, want me to create a website for you or want to contact me for anything else, please fill the form below.</b></small></p>
+			<p class="note text-center"><small><b>If you are interested in a budget for your website project, a consultation, want me to create a website for you or want to contact me for anything else, please fill  the form below.</b></small></p>
 		</div>
 		<div class="col-md-6 offset-md-3 col-10 offset-1">
 			<form role="form" method="POST" action="#">
 				<div class="form-group has-success has-feedback">
 					<label for="name" class="label-control"  style="color: #FFDEAD">Full name</label>
-					<font color="red" size="5px">**</font><input type="text" name="name" class="form-control py-3 px-3" id="inputSuccess2" aria-describedby="inputSuccess2Status">
+					<font color="red" size="5px">**</font><input type="text" name="name" class="form-control py-3 px-3" id="inputSuccess2" aria-describedby="inputSuccess2Status" required>
 					<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
 					<span id="inputSuccess2Status" class="sr-only">(success)</span>
 				</div>
@@ -162,7 +199,7 @@
 			
 			<div class="form-group has-success has-feedback">
 				<label for="email" class="label-control pt-3" style="color: #FFDEAD">Email</label>
-				<font color="red" size="5px">*</font><input type="email" name="email" class="form-control  py-3 px-3" id="inputSuccess2" aria-describedby="inputSuccess2Status">
+				<font color="red" size="5px">*</font><input type="email" name="email" class="form-control  py-3 px-3" id="inputSuccess2" aria-describedby="inputSuccess2Status" required>
 				<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
 				<span id="inputSuccess2Status" class="sr-only">(success)</span>
 				
@@ -170,23 +207,23 @@
 
 			<div class="form-group has-success has-feedback">
 				<label for="text" class="label-control pt-3" style="color: #FFDEAD">Phone number</label>
-				<font color="red" size="5px">**</font><input type="text" name="phone number" class="form-control  py-3 px-3" id="inputSuccess2" aria-describedby="inputSuccess2Status">
+				<font color="red" size="5px">**</font><input type="text" name="phone number" class="form-control  py-3 px-3" id="inputSuccess2" aria-describedby="inputSuccess2Status" required>
 				<span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
 				<span id="inputSuccess2Status" class="sr-only">(success)</span>
 				
 			</div>
 			<div class="form-group">
 				<label for="message" class="label-control" style="color: #FFDEAD">Message</label>
-				<font color="red" size="5px">**</font><textarea name="message" class="form-control textarea px-3 py-2" rows="2" cols="3px" placeholder="what do you have for us?"></textarea>
+				<font color="red" size="5px">**</font><textarea name="message" class="form-control textarea px-3 py-2" rows="2" cols="3px" placeholder="what do you have for us?" required></textarea>
 			</div>
 			
 			<div class="form-group">
 			<label for="date" class=" label-control" style="color: #FFDEAD"> Date</label> 
-				<font color="red" size="5px">*</font><input type="date" name="date" class=" form-control px-3 py-2">
+				<font color="red" size="5px">*</font><input type="date" name="date" class=" form-control px-3 py-2" required>
 
 			</div>
 			 
-    <div class="g-recaptcha col-md-6 col-10  d-flex justify-content-center"  data-sitekey="6LelW64UAAAAALx3etIAngYF51leccqiqctpRsCz " ></div>
+   			 <div class="g-recaptcha col-md-6 col-10 offset-0 "data-sitekey="6LelW64UAAAAALx3etIAngYF51leccqiqctpRsCz"></div>
   
 			<div class="form-group">
 				<input type="submit" name="submit" class=" col-12  btn btn-default btn-primary mt-2" onclick="myfunction()" value="SEND" style="color: #FFDEAD" id="myInput">
@@ -200,6 +237,40 @@
 </div>
 <!-- contact form closed-->
 
+<!--partners starts-->
+<div class="container-fluid border-bottom">
+	<div class="pt-2"><b>Partners:</b></div>
+	<div class="row offset-md-2">
+		<div class="col-12 col-md-2">
+			<img src="images/logo.png" class="py-2 px-2" height="120" width="120">
+			<br>
+			<small class="px-3">KWASU DSC</small>
+		</div>
+		<div class="col-12 col-md-2">
+			<img src="images/gdgp.png" class="py-2 px-2" height="120" width="140" style="border-radius:50%">
+			<br>
+			<small class="px-4">GDG ILORIN</small>
+		</div>
+		<div class="col-12 col-md-2">
+			<img src="images/nacoss.jpg" class="py-2 px-2" height="120" width="140" style="border-radius:50%">
+			<br>
+			<small class="px-5">NACOSS</small>
+		</div>
+		<div class="col-12 col-md-2">
+			<img src="images/nuesa.jpg" class="py-2 px-2" height="120" width="140" style="border-radius:50%">
+			<br>
+			<small class="px-3">KWASU NUESA</small>
+		</div>
+		<div class="col-12 col-md-2">
+			<img src="images/IMG-20190728-WA0014.jpg" class="py-2 px-2" height="120" width="140" style="border-radius:50%">
+			<br>
+			<small class="px-1">SOUGHT OUT GRAPHICS</small>
+		</div>
+
+
+	</div>
+</div>
+
 
 	
 <script src='https://www.google.com/recaptcha/api.js'></script>
@@ -207,9 +278,10 @@
  <footer>
  	<div class="container-fluid">
  		<div class="row">
- 			<div class="col-12 col-md-6 "><small>Website designed and created by <b>Akande Matthew.</b> All right reserved &copy2019.</small> 
- 	</div>
- 		<span class="font-awesome">
+ 			<div class="col-12 col-md-6 footer" >Website designed and created by <b>Akande Matthew.</b> All right reserved &copy2019. 
+ 			</div>
+ 		<span class="font-awesome pt-1">
+ 			<span> Contact me:</span>
 	 	<i class="fa fa-facebook-square">@akande.mathew948</i>|
 	 	<i class="fa fa-whatsapp"> 08169029730</i>|
 	 	
