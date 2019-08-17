@@ -73,10 +73,12 @@ input[type="date"]{
 	font-size: 30px
 }
 .contactme{
-	background-image:linear-gradient(rgba(10,10,10,0.5),rgba(10,10,10,0.5)),url("Images/emma-matthews-973230-unsplash.jpg");
+	background-image:linear-gradient(rgba(10,10,10,0.2),rgba(10,10,10,0.2)),url("Images/emma-matthews-973230-unsplash.jpg");
 	background-size: cover;
 	border-radius: 5px;
+	overflow: hidden;
 }
+
 .note{
 	color: white;
 }
