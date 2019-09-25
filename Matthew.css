@@ -94,8 +94,12 @@ input[type="date"]{
 	color: white;
 	padding:10px;
 	border-radius:10px;
-	margin-left:70%;
+	margin-left:0%;
 	
+}
+.nxt{
+	margin-left:1100px;
+	margin-bottom:30px;
 }
 .previous{
 	background-color:#4CAF50;
@@ -134,28 +138,28 @@ footer{
 }
 .html_image{
 	border-radius:50%; 
-	height:100px;
-	width:120px;
+	height:400px;
+	width:100px;
 }
 .css_image{
 	border-radius:50%;
-	height:100px;
-	width:120px;
+	height:400px;
+	width:100px;
 }
 .js_image{
 	border-radius:50%;
-	height:100px;
-	width:120px;
+	height:400px;
+	width:100px;
 }
 .c_image{
 	border-radius:50%;
-	height:100px;
-	width:120px;
+	height:400px;
+	width:100px;
 }
 .mysql_image{
-	border-radius:0%;
-	height:100px;
-	width:120px;
+	border-radius:50%;
+	height:400px;
+	width:100px;
 }
 .footer{
 	padding:5px
