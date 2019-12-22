@@ -1,6 +1,6 @@
 
 body{
-	background-image:url("Images/email-pattern.png");
+	background-image:url("Images/c.png");
 	background-attachment: fixed;
 }
 .pt{
@@ -15,8 +15,9 @@ a[href="#"]{
 	color:default;
 }
 .About{
-	font-family:cursive;
-	font-size:30px
+	font-family:default;
+	font-size:30px;
+	font-style: oblique;
 }
 .container1{
 	margin-top:50px;
@@ -64,7 +65,8 @@ input[type="date"]{
 .contact{
 	font-family:Times, serif;
 	color: #FFDEAD;
-	border-radius: 3px
+	border-radius: 3px;
+	font-style: oblique
 }
 .project{
 	margin-left: 700px;
@@ -80,7 +82,7 @@ input[type="date"]{
 }
 
 .note{
-	color: white;
+	color: red;
 }
 .font-awesome{
 	margin-left: 150px;
@@ -94,11 +96,16 @@ input[type="date"]{
 	color: white;
 	padding:10px;
 	border-radius:10px;
-	margin-left:0%;
 	
 }
+.m-next{
+	background-color:#4CAF50;
+	color: white;
+	padding:10px;
+	border-radius:10px;
+}
 .nxt{
-	margin-left:1100px;
+	margin-left:0em;
 	margin-bottom:30px;
 }
 .previous{
@@ -117,14 +124,15 @@ input[type="date"]{
 	margin-left:3%
 }
 .sentences{
-	margin-right:10px
+	margin-right:10px;
+	font-family: inherit;
 }
-footer{
+.end{
 	background-color:black;
 	font-weight:70%;
 	color: white;
 	border-radius: 3px;
-	margin-left:40px
+	margin-left:0px;
 }
 .favourite{
 	background-color:grey;
@@ -167,11 +175,44 @@ footer{
 a:hover{
 	color:red;
 }
-a:visited{
-	
-}
-.p{
-	font-family: sans-serif;
+.mide{
 	font-size: 20px;
-	
+	margin-left: 10em
+}
+.mide-wow{
+	margin-top:3em;
+}
+.pro{
+	font-size:30px; 
+	margin-top: 40px;
+	font-style: oblique;
+}
+.skill{
+	font-size: 30px;
+	font-style: oblique;
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+
+}
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 6em;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100 ;
+}
+.my-float{
+    margin-top: 16px;
+}
+.web{
+	font-style: oblique;
 }
