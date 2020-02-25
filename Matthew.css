@@ -2,6 +2,7 @@
 body{
 	background-image:url("Images/c.png");
 	background-attachment: fixed;
+	background-size:unset;
 }
 .pt{
 	margin-top: 50px;
@@ -17,7 +18,7 @@ a[href="#"]{
 .About{
 	font-family:default;
 	font-size:30px;
-	font-style: oblique;
+	font-family: 'Righteous', cursive;-
 }
 .container1{
 	margin-top:50px;
@@ -85,11 +86,11 @@ input[type="date"]{
 	color: red;
 }
 .font-awesome{
-	margin-left: 150px;
+	margin-left:10%;
 }
 .rounded-image{
 	border-radius: 50%;
-	margin-left: 10px
+	
 }
 .next{
 	background-color:#4CAF50;
@@ -125,7 +126,8 @@ input[type="date"]{
 }
 .sentences{
 	margin-right:10px;
-	font-family: inherit;
+	font-size: medium;
+	font-family: 'Ubuntu Condensed', sans-serif;
 }
 .end{
 	background-color:black;
@@ -172,9 +174,7 @@ input[type="date"]{
 .footer{
 	padding:5px
 }
-a:hover{
-	color:red;
-}
+
 .mide{
 	font-size: 20px;
 	margin-left: 10em
@@ -188,8 +188,8 @@ a:hover{
 	font-style: oblique;
 }
 .skill{
-	font-size: 30px;
-	font-style: oblique;
+	font-size: 15px;
+	font-style: default;
 	margin-top: 1em;
 	margin-bottom: 1em;
 
@@ -214,4 +214,34 @@ a:hover{
 }
 .web{
 	font-style: oblique;
+}
+.sk{
+	background-image: url("Images/clement-h-95YRwf6CNw8-unsplash.jpg");
+	background-size: contain;
+	background-attachment: unset;
+	overflow: hidden;
+}
+.advert{
+	background-image: url("Images/szabo-viktor-KbU56hwagYg-unsplash.jpg");
+	background-size: contain;
+	background-repeat:repeat;
+	background-attachment: unset;
+	overflow: hidden;
+}
+.pr{
+	color: ivory;
+}
+.wrapper{
+	overflow: hidden;
+}
+.sliding-background{
+	background: url("Images/diversity.png");
+	background-size: cover;
+	height: 560px;
+	width: 5076px;
+	animation: slide 60s linear infinite;
+}
+
+.trademark{
+	font-family: 'Lobster Two', cursive;
 }
