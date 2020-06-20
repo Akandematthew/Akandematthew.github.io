@@ -250,3 +250,14 @@ input[type="date"]{
 .partners{
 	font-family: 'Lacquer', ;
 }
+.font{
+	background-color: lightgrey;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	padding: 5px 5px;
+	
+}
+
+	
